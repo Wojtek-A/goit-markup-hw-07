@@ -1,0 +1,26 @@
+.our-clients {
+  text-align: center;
+  letter-spacing: 00.06em;
+  &__list {
+    padding-top: 50px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__client {
+    width: 170px;
+    height: 92px;
+    fill: getfillcolor(bombay);
+    border: 1px solid getbrdcolor(bombay);
+    border-radius: 4px;
+    transition-property: fill, border;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      fill: getfillcolor(dodger-blue);
+      border: 1px solid getbrdcolor(dodger-blue);
+      cursor: pointer;
+    }
+  }
+}

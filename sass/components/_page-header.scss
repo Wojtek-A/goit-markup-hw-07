@@ -1,0 +1,88 @@
+.header {
+  height: 80px;
+  padding-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+.header-links {
+  display: flex;
+  align-items: center;
+  width: 492px;
+  gap: 46px;
+  padding: 2px 111px 0 95px;
+
+  &__link {
+    position: relative;
+    color: getcolor(black);
+    font-weight: 500;
+    line-height: 1.14;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+    padding: 0px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: getcolor(dodger-blue);
+      fill: getfillcolor(dodger-blue);
+    }
+  }
+}
+.header-links-portfolio {
+  @extend .header-links;
+  gap: 47px;
+  padding: 0 345px 0 93px;
+}
+.header-contacts {
+  list-style-type: none;
+  display: flex;
+  margin-left: 202px;
+  margin-top: 6px;
+  justify-content: flex-end;
+  width: 321px;
+  gap: 30px;
+  &__contact {
+    color: getcolor(boulder);
+    fill: getfillcolor(boulder);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    line-height: 1.14;
+    font-size: 14px;
+    transition-property: color, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: getcolor(dodger-blue);
+      fill: getfillcolor(dodger-blue);
+    }
+  }
+}
+.header-contacts-portfolio {
+  @extend .header-contacts;
+  margin-left: 219px;
+  margin-top: 4px;
+  width: 321px;
+  gap: 28px;
+}
+.line::after {
+  position: absolute;
+  background: #2196f3;
+  content: "";
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 44px;
+  height: 4px;
+  border-radius: 2px;
+}
+.header-text-color {
+  color: #2196f3;
+}
+.border {
+  border-bottom: 1px solid #ececec;
+}

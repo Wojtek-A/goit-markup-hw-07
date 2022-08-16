@@ -1,0 +1,24 @@
+body {
+  font-family: $primaryfont;
+  font-size: 15px;
+  letter-spacing: 0.03em;
+  line-height: 1.17;
+  color: getcolor(black);
+  margin: 0px;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+li nav {
+  margin: 0px;
+  padding: 0px;
+}
+h2 {
+  font-size: 36px;
+}
+img {
+  display: block;
+}

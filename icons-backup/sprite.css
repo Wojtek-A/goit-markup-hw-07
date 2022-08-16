@@ -1,0 +1,121 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.newsletter-icon-unchecked {
+  width: 34px;
+  height: 32px;
+  background-position: 0 0;
+}
+.newsletter-icon-checked {
+  width: 34px;
+  height: 32px;
+  background-position: 0 -32px;
+}
+.newsletter-envelope {
+  width: 43px;
+  height: 32px;
+  background-position: 0 -64px;
+}
+.newsletter-icon {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -96px;
+}
+.newsletter-phone {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -128px;
+}
+.newsletter-user {
+  width: 38px;
+  height: 32px;
+  background-position: 0 -160px;
+}
+.x {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -192px;
+}
+.linkedin {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -224px;
+}
+.facebook {
+  width: 18px;
+  height: 32px;
+  background-position: 0 -256px;
+}
+.twitter {
+  width: 36px;
+  height: 32px;
+  background-position: 0 -288px;
+}
+.instagram {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -320px;
+}
+.antena {
+  width: 30px;
+  height: 32px;
+  background-position: 0 -352px;
+}
+.astronaut {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -384px;
+}
+.Client1 {
+  width: 27px;
+  height: 32px;
+  background-position: 0 -416px;
+}
+.Client2 {
+  width: 24px;
+  height: 32px;
+  background-position: 0 -448px;
+}
+.Client3 {
+  width: 34px;
+  height: 32px;
+  background-position: 0 -480px;
+}
+.Client4 {
+  width: 65px;
+  height: 32px;
+  background-position: 0 -512px;
+}
+.Client5 {
+  width: 43px;
+  height: 32px;
+  background-position: 0 -544px;
+}
+.Client6 {
+  width: 67px;
+  height: 32px;
+  background-position: 0 -576px;
+}
+.clock {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -608px;
+}
+.diagram {
+  width: 32px;
+  height: 32px;
+  background-position: -32px -608px;
+}
+.envelope {
+  width: 43px;
+  height: 32px;
+  background-position: 0 -640px;
+}
+.smartphone {
+  width: 20px;
+  height: 32px;
+  background-position: 0 -672px;
+}
+

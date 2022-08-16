@@ -1,0 +1,88 @@
+.footer {
+  width: unset;
+  padding: 0px;
+  background-color: getbgcolor(tuna);
+}
+.footer-columns {
+  list-style-type: none;
+  display: flex;
+  gap: 70px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.footer > div {
+  padding: 60px 0;
+}
+.footer-contacts-list {
+  list-style-type: none;
+  height: 77px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 25px;
+  &__address {
+    color: getcolor(white);
+    font-size: 14px;
+    font-style: normal;
+  }
+  &__contact {
+    color: getcolor(white-grey);
+    font-size: 14px;
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+      color: #2196f3;
+    }
+  }
+}
+.social-links-column {
+  color: getcolor(white);
+  padding-top: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+
+.newsletter-footer {
+  list-style-type: none;
+  display: flex;
+  align-items: flex-end;
+  &__text {
+    margin-top: 12px;
+    margin-left: 9px;
+    margin-bottom: 0px;
+    color: getcolor(white);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+  }
+  &__email {
+    margin: 21px 10px 0 9px;
+    width: 358px;
+    height: 49px;
+    padding-left: 16px;
+    border-radius: 4px;
+    border: 1px solid getbrdcolor(grey);
+    background-color: getbgcolor(tuna);
+    color: getcolor(white-darker) #ffffff99;
+    font-family: $primaryfont;
+    font-size: 16px;
+  }
+}
+.newsletter__button {
+  margin-top: 19px;
+  border: none;
+  border-radius: 4px;
+  background-color: getbgcolor(dodger-blue);
+  color: getcolor(white);
+  fill: getfillColor(white);
+  font-family: $primaryfont;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}

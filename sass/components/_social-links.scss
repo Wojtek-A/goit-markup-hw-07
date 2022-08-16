@@ -1,0 +1,37 @@
+%social-links {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+%socila-links__link {
+  border-radius: 50%;
+  transition-property: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    cursor: pointer;
+    fill: fillcolor(white);
+    background-color: getbgcolor(dodger-blue);
+  }
+}
+.social-links-employee {
+  @extend %social-links;
+  width: 270px;
+  margin-top: 16px;
+  margin-bottom: 26px;
+}
+.social-links-employee__link {
+  @extend %socila-links__link;
+  fill: getfillcolor(bombay);
+}
+
+.social-links-footer {
+  @extend %social-links;
+  padding-top: 20px;
+}
+.social-links-footer__link {
+  @extend %socila-links__link;
+  fill: getfillcolor(white);
+}

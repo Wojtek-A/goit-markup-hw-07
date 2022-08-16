@@ -1,0 +1,29 @@
+.list {
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+
+  &__item {
+    width: 270px;
+  }
+
+  &__item-picture {
+    width: 270px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: getbgcolor(whisper);
+  }
+
+  &__item-headline {
+    margin-top: 27px;
+    font-size: 14px;
+  }
+
+  &__item-text {
+    margin-top: 10px;
+    color: getcolor(boulder);
+    font-size: 14px;
+    line-height: 1.71;
+  }
+}

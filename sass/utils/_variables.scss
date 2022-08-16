@@ -1,0 +1,46 @@
+$color: (
+  "white": #fff,
+  "dodger-blue": #2196f3,
+  "boulder": #757575,
+  "black":  #212121,
+  "white-darker": #ffffff99,
+  "white-grey": rgba(255, 255, 255, 0.6),
+);
+$bgColor: (
+  "white": #fff,
+  "dodger-blue": #2196f3,
+  "tuna": #2f303a,
+  "boulder": #757575,
+  "tuna-seconadry": #2f303a66,
+  "dark-grey": rgba(0, 0, 0, 0.2),
+  "whisper": #f5f4fa,
+  "boulder-secondary": #2196f3e5,
+  "black-rock" rgba(47, 48, 58, 0.4),
+);
+$brdColor: (
+  "grey": #ffffff4d,
+  "white": #fff,
+  "whisper": #f5f4fa,
+  "dodger-blue": #2196f3,
+  "black-secondary": #21212133,
+  "bombay": #afb1b8,
+  "gallery": #ececec,
+);
+$fillColor: (
+  "whisper": #f5f4fa,
+  "white": #fff,
+  "dodger-blue": #2196f3,
+  "black": #000000,
+  "bombay": #afb1b8,
+);
+
+@function getColor($key) {
+  @return map-get($color, $key);
+};
+
+@function getBgColor($key) {
+  @return map-get($bgColor, $key);
+};
+
+$primaryfont: ("Roboto", sans-serif);
+$secondaryfont: ("Raleway", sans-serif);
