@@ -12,7 +12,7 @@
   &:hover,
   &:focus {
     cursor: pointer;
-    fill: fillcolor(white);
+    fill: getfillcolor(whited);
     background-color: getbgcolor(dodger-blue);
   }
 }
@@ -33,5 +33,5 @@
 }
 .social-links-footer__link {
   @extend %socila-links__link;
-  fill: getfillcolor(white);
+  fill: getfillcolor(whited);
 }

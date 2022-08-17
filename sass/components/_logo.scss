@@ -6,10 +6,10 @@
   text-decoration: none;
 
   &__text-color {
-    color: getcolor(black);
+    color: getcolor(blacky);
 
     &--footer {
-      color: getcolor(white);
+      color: getcolor(whited);
     }
   }
 }

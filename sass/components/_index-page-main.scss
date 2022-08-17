@@ -2,8 +2,8 @@
   background-color: getbgcolor(tuna-seconadry);
   background-image: linear-gradient(
       to right,
-      getBgColor(black-rock),
-      getBgColor(black-rock)
+      getbgcolor(black-rock),
+      getbgcolor(black-rock)
     ),
     url("https://raw.githubusercontent.com/Wojtek-A/goit-markup-hw-07/main/images/main.jpg");
   max-width: 1600px;
@@ -18,7 +18,7 @@
   align-items: center;
 
   &__text {
-    color: getcolor(white);
+    color: getcolor(whited);
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -33,7 +33,7 @@
     margin: 30px auto 106px auto;
     border: 0;
     background-color: getbgcolor(dodger-blue);
-    color: getcolor(white);
+    color: getcolor(whited);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.86;

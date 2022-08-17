@@ -21,7 +21,7 @@
   justify-content: space-between;
   margin-top: 25px;
   &__address {
-    color: getcolor(white);
+    color: getcolor(whited);
     font-size: 14px;
     font-style: normal;
   }
@@ -39,7 +39,7 @@
   }
 }
 .social-links-column {
-  color: getcolor(white);
+  color: getcolor(whited);
   padding-top: 10px;
   font-size: 14px;
   font-weight: 700;
@@ -55,7 +55,7 @@
     margin-top: 12px;
     margin-left: 9px;
     margin-bottom: 0px;
-    color: getcolor(white);
+    color: getcolor(whited);
     font-size: 14px;
     letter-spacing: 0.03em;
   }
@@ -65,9 +65,9 @@
     height: 49px;
     padding-left: 16px;
     border-radius: 4px;
-    border: 1px solid getbrdcolor(grey);
+    border: 1px solid getbrdcolor(greyed);
     background-color: getbgcolor(tuna);
-    color: getcolor(white-darker) #ffffff99;
+    color: getcolor(white-darker);
     font-family: $primaryfont;
     font-size: 16px;
   }
@@ -77,8 +77,8 @@
   border: none;
   border-radius: 4px;
   background-color: getbgcolor(dodger-blue);
-  color: getcolor(white);
-  fill: getfillColor(white);
+  color: getcolor(whited);
+  fill: getfillcolor(whited);
   font-family: $primaryfont;
   font-size: 16px;
   font-weight: 700;

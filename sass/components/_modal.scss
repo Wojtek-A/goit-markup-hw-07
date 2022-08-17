@@ -28,12 +28,12 @@
   border-radius: 2px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14);
-  background-color: getbgcolor(white);
+  background-color: getbgcolor(whited);
   &__exit {
     margin: 8px 8px auto 490px;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
-    background-color: getbgcolor(white);
+    background-color: getbgcolor(whited);
     fill: getfillcolor(black);
     transition-property: color, background-color;
     transition-duration: 250ms;
@@ -147,7 +147,7 @@
     padding: 10px 0;
     margin: 52px 124px;
     background-color: getbgcolor(dodger-blue);
-    color: getcolor(white);
+    color: getcolor(whited);
     border: 0px;
     border-radius: 4px;
     font-family: $primaryfont;
@@ -161,7 +161,7 @@
     &:hover,
     &:focus {
       cursor: pointer;
-      fill: #fff;
+      fill: getfillcolor(whited);
       background-color: getbrdcolor(dodger-blue);
     }
   }
