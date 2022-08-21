@@ -469,6 +469,9 @@ img {
   text-align: center;
   padding-top: 0;
 }
+.what-we-do h2 {
+  letter-spacing: 0.03em;
+}
 .what-we-do__list {
   list-style-type: none;
   display: -webkit-box;
@@ -496,16 +499,19 @@ img {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8));
 }
 
-.what-we-do > h2 {
-  letter-spacing: 0.03em;
-}
-
 .our-team {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
   background-color: #f5f4fa;
   padding-top: 94px;
+}
+.our-team h2 {
+  letter-spacing: 0.03em;
+}
+.our-team h3 {
+  margin-top: 30px;
+  font-size: 16px;
 }
 .our-team__employees {
   display: -webkit-box;
@@ -532,15 +538,6 @@ img {
   color: #757575;
   font-weight: normal;
   margin-top: 10px;
-}
-
-.our-team > h2 {
-  letter-spacing: 0.03em;
-}
-
-.our-team__employee > h3 {
-  margin-top: 30px;
-  font-size: 16px;
 }
 
 .social-links-footer, .social-links-employee {
@@ -632,12 +629,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 70px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.footer > div {
-  padding: 60px 0;
+  padding: 60px 0px;
 }
 
 .footer-contacts-list {

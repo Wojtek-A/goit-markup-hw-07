@@ -3,6 +3,9 @@
   font-size: 36px;
   text-align: center;
   padding-top: 0;
+  h2 {
+    letter-spacing: 0.03em;
+  }
   &__list {
     list-style-type: none;
     display: flex;
@@ -28,7 +31,4 @@
       rgba(47, 48, 58, 0.8)
     );
   }
-}
-.what-we-do > h2 {
-  letter-spacing: 0.03em;
 }

@@ -4,6 +4,13 @@
   text-align: center;
   background-color: getbgcolor(whisper);
   padding-top: 94px;
+  h2 {
+    letter-spacing: 0.03em;
+  }
+  h3 {
+    margin-top: 30px;
+    font-size: 16px;
+  }
   &__employees {
     display: flex;
     justify-content: space-between;
@@ -26,10 +33,4 @@
     margin-top: 10px;
   }
 }
-.our-team > h2 {
-  letter-spacing: 0.03em;
-}
-.our-team__employee > h3 {
-  margin-top: 30px;
-  font-size: 16px;
-}
+
